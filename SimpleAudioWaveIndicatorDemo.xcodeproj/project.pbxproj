@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9FECC2E228ED37FF00209805 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FECC2E128ED37FF00209805 /* AppDelegate.swift */; };
+		9FECC2E428ED37FF00209805 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FECC2E328ED37FF00209805 /* SceneDelegate.swift */; };
+		9FECC2E628ED37FF00209805 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FECC2E528ED37FF00209805 /* ViewController.swift */; };
+		9FECC2E928ED37FF00209805 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FECC2E728ED37FF00209805 /* Main.storyboard */; };
+		9FECC2EB28ED380000209805 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FECC2EA28ED380000209805 /* Assets.xcassets */; };
+		9FECC2EE28ED380000209805 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FECC2EC28ED380000209805 /* LaunchScreen.storyboard */; };
+		9FECC2FB28ED397100209805 /* SimpleAudioWaveIndicator in Frameworks */ = {isa = PBXBuildFile; productRef = 9FECC2FA28ED397100209805 /* SimpleAudioWaveIndicator */; };
+		9FECC2FD28ED39BD00209805 /* demo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 9FECC2FC28ED39BD00209805 /* demo.m4a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9FECC2DE28ED37FF00209805 /* SimpleAudioWaveIndicatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleAudioWaveIndicatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FECC2E128ED37FF00209805 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9FECC2E328ED37FF00209805 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9FECC2E528ED37FF00209805 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9FECC2E828ED37FF00209805 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9FECC2EA28ED380000209805 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FECC2ED28ED380000209805 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9FECC2EF28ED380000209805 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FECC2F628ED386C00209805 /* SimpleAudioWaveIndicator */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SimpleAudioWaveIndicator; sourceTree = "<group>"; };
+		9FECC2FC28ED39BD00209805 /* demo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = demo.m4a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FECC2DB28ED37FF00209805 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FECC2FB28ED397100209805 /* SimpleAudioWaveIndicator in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9FECC2D528ED37FF00209805 = {
+			isa = PBXGroup;
+			children = (
+				9FECC2F528ED386C00209805 /* Packages */,
+				9FECC2E028ED37FF00209805 /* SimpleAudioWaveIndicatorDemo */,
+				9FECC2DF28ED37FF00209805 /* Products */,
+				9FECC2F928ED397100209805 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9FECC2DF28ED37FF00209805 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FECC2DE28ED37FF00209805 /* SimpleAudioWaveIndicatorDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FECC2E028ED37FF00209805 /* SimpleAudioWaveIndicatorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9FECC2F728ED38D700209805 /* demoSrc */,
+				9FECC2E128ED37FF00209805 /* AppDelegate.swift */,
+				9FECC2E328ED37FF00209805 /* SceneDelegate.swift */,
+				9FECC2E528ED37FF00209805 /* ViewController.swift */,
+				9FECC2E728ED37FF00209805 /* Main.storyboard */,
+				9FECC2EA28ED380000209805 /* Assets.xcassets */,
+				9FECC2EC28ED380000209805 /* LaunchScreen.storyboard */,
+				9FECC2EF28ED380000209805 /* Info.plist */,
+			);
+			path = SimpleAudioWaveIndicatorDemo;
+			sourceTree = "<group>";
+		};
+		9FECC2F528ED386C00209805 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				9FECC2F628ED386C00209805 /* SimpleAudioWaveIndicator */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		9FECC2F728ED38D700209805 /* demoSrc */ = {
+			isa = PBXGroup;
+			children = (
+				9FECC2FC28ED39BD00209805 /* demo.m4a */,
+			);
+			path = demoSrc;
+			sourceTree = "<group>";
+		};
+		9FECC2F928ED397100209805 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FECC2DD28ED37FF00209805 /* SimpleAudioWaveIndicatorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FECC2F228ED380000209805 /* Build configuration list for PBXNativeTarget "SimpleAudioWaveIndicatorDemo" */;
+			buildPhases = (
+				9FECC2DA28ED37FF00209805 /* Sources */,
+				9FECC2DB28ED37FF00209805 /* Frameworks */,
+				9FECC2DC28ED37FF00209805 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleAudioWaveIndicatorDemo;
+			packageProductDependencies = (
+				9FECC2FA28ED397100209805 /* SimpleAudioWaveIndicator */,
+			);
+			productName = SimpleAudioWaveIndicatorDemo;
+			productReference = 9FECC2DE28ED37FF00209805 /* SimpleAudioWaveIndicatorDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FECC2D628ED37FF00209805 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					9FECC2DD28ED37FF00209805 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 9FECC2D928ED37FF00209805 /* Build configuration list for PBXProject "SimpleAudioWaveIndicatorDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FECC2D528ED37FF00209805;
+			productRefGroup = 9FECC2DF28ED37FF00209805 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FECC2DD28ED37FF00209805 /* SimpleAudioWaveIndicatorDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FECC2DC28ED37FF00209805 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FECC2EE28ED380000209805 /* LaunchScreen.storyboard in Resources */,
+				9FECC2FD28ED39BD00209805 /* demo.m4a in Resources */,
+				9FECC2EB28ED380000209805 /* Assets.xcassets in Resources */,
+				9FECC2E928ED37FF00209805 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FECC2DA28ED37FF00209805 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FECC2E628ED37FF00209805 /* ViewController.swift in Sources */,
+				9FECC2E228ED37FF00209805 /* AppDelegate.swift in Sources */,
+				9FECC2E428ED37FF00209805 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9FECC2E728ED37FF00209805 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FECC2E828ED37FF00209805 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9FECC2EC28ED380000209805 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FECC2ED28ED380000209805 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FECC2F028ED380000209805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9FECC2F128ED380000209805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FECC2F328ED380000209805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CUT53EQ8B5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SimpleAudioWaveIndicatorDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = allen870619.SimpleAudioWaveIndicatorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9FECC2F428ED380000209805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CUT53EQ8B5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SimpleAudioWaveIndicatorDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = allen870619.SimpleAudioWaveIndicatorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FECC2D928ED37FF00209805 /* Build configuration list for PBXProject "SimpleAudioWaveIndicatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FECC2F028ED380000209805 /* Debug */,
+				9FECC2F128ED380000209805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FECC2F228ED380000209805 /* Build configuration list for PBXNativeTarget "SimpleAudioWaveIndicatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FECC2F328ED380000209805 /* Debug */,
+				9FECC2F428ED380000209805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9FECC2FA28ED397100209805 /* SimpleAudioWaveIndicator */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SimpleAudioWaveIndicator;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9FECC2D628ED37FF00209805 /* Project object */;
+}
