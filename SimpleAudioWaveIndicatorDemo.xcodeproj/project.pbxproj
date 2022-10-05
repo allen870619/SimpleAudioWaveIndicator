@@ -14,7 +14,6 @@
 		9FECC2EB28ED380000209805 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FECC2EA28ED380000209805 /* Assets.xcassets */; };
 		9FECC2EE28ED380000209805 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FECC2EC28ED380000209805 /* LaunchScreen.storyboard */; };
 		9FECC2FB28ED397100209805 /* SimpleAudioWaveIndicator in Frameworks */ = {isa = PBXBuildFile; productRef = 9FECC2FA28ED397100209805 /* SimpleAudioWaveIndicator */; };
-		9FECC2FD28ED39BD00209805 /* demo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 9FECC2FC28ED39BD00209805 /* demo.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +26,7 @@
 		9FECC2ED28ED380000209805 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FECC2EF28ED380000209805 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FECC2F628ED386C00209805 /* SimpleAudioWaveIndicator */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SimpleAudioWaveIndicator; sourceTree = "<group>"; };
-		9FECC2FC28ED39BD00209805 /* demo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = demo.m4a; sourceTree = "<group>"; };
+		9FECC2FE28ED63A800209805 /* demo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = demo.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +62,6 @@
 		9FECC2E028ED37FF00209805 /* SimpleAudioWaveIndicatorDemo */ = {
 			isa = PBXGroup;
 			children = (
-				9FECC2F728ED38D700209805 /* demoSrc */,
 				9FECC2E128ED37FF00209805 /* AppDelegate.swift */,
 				9FECC2E328ED37FF00209805 /* SceneDelegate.swift */,
 				9FECC2E528ED37FF00209805 /* ViewController.swift */,
@@ -71,6 +69,7 @@
 				9FECC2EA28ED380000209805 /* Assets.xcassets */,
 				9FECC2EC28ED380000209805 /* LaunchScreen.storyboard */,
 				9FECC2EF28ED380000209805 /* Info.plist */,
+				9FECC2FE28ED63A800209805 /* demo.m4a */,
 			);
 			path = SimpleAudioWaveIndicatorDemo;
 			sourceTree = "<group>";
@@ -81,14 +80,6 @@
 				9FECC2F628ED386C00209805 /* SimpleAudioWaveIndicator */,
 			);
 			name = Packages;
-			sourceTree = "<group>";
-		};
-		9FECC2F728ED38D700209805 /* demoSrc */ = {
-			isa = PBXGroup;
-			children = (
-				9FECC2FC28ED39BD00209805 /* demo.m4a */,
-			);
-			path = demoSrc;
 			sourceTree = "<group>";
 		};
 		9FECC2F928ED397100209805 /* Frameworks */ = {
@@ -160,7 +151,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FECC2EE28ED380000209805 /* LaunchScreen.storyboard in Resources */,
-				9FECC2FD28ED39BD00209805 /* demo.m4a in Resources */,
 				9FECC2EB28ED380000209805 /* Assets.xcassets in Resources */,
 				9FECC2E928ED37FF00209805 /* Main.storyboard in Resources */,
 			);
