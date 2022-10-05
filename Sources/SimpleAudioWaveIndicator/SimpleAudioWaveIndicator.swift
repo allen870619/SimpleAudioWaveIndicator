@@ -9,19 +9,19 @@ import UIKit
 
 public class SimpleAudioWaveIndicator: UIView {
     /* style*/
-    let minDb: Float = 40 // acutally is -40
-    let barSpacing = 8
-    let sampling: Int = 10 // take one datum from N data each period
-    let strokeColor: UIColor = .red
-    let strokeWidth: CGFloat = 2
-    let showPercentage: CGFloat = 1 // amplitude of stroke (percentage of half height)
+    public var minDb: Float = 40 // acutally is -40
+    public var barSpacing = 8
+    public var sampling: Int = 10 // take one datum from N data each period
+    public var strokeColor: UIColor = .red
+    public var strokeWidth: CGFloat = 2
+    public var showPercentage: CGFloat = 1 // amplitude of stroke (percentage of half height)
 
     /* data*/
     private var powerStack = [Float]()
     private var timeCounter = 0
-
+    
     /// averagePower recommanded
-    public var power: Float = 120 {
+    public var power: Float = 40 {
         didSet {
             var p = abs(power)
             if p > minDb {
@@ -63,6 +63,7 @@ public class SimpleAudioWaveIndicator: UIView {
 
     /// reset all drawing
     public func reset() {
+        power = minDb
         powerStack.removeAll()
         timeCounter = 0
     }

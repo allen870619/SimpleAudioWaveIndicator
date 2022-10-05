@@ -35,17 +35,20 @@ class ViewController: UIViewController {
             audioPlayer?.stop()
             audioPlayer?.currentTime = 0
             timer?.invalidate()
-            timer = nil
         } else {
-            timer = Timer.scheduledTimer(timeInterval: 1 / 60, target: self, selector: #selector(timerAction), userInfo: nil, repeats: true)
             audioWaveIndicator.reset()
+            timer = Timer.scheduledTimer(timeInterval: 1 / 60, target: self, selector: #selector(timerAction), userInfo: nil, repeats: true)
             audioPlayer?.play()
         }
     }
 
     @objc func timerAction() {
-        audioWaveIndicator.power = (audioPlayer?.averagePower(forChannel: 0) ?? 0)
-        audioWaveIndicator.setNeedsDisplay()
-        audioPlayer?.updateMeters()
+        if audioPlayer?.isPlaying == true{
+            audioWaveIndicator.power = (audioPlayer?.averagePower(forChannel: 0) ?? 0)
+            audioWaveIndicator.setNeedsDisplay()
+            audioPlayer?.updateMeters()
+        }else {
+            timer?.invalidate()
+        }
     }
 }
